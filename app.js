@@ -15,6 +15,7 @@ function readText(){
     const searchText = document.getElementById("search_text").value;
 
     if(!searchText) return;
+    
     const utter = new SpeechSynthesisUtterance(searchText);
 
     const lang = document.getElementById("lang").value;
