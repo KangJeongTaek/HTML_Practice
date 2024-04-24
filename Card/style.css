@@ -1,0 +1,28 @@
+
+.container{
+    width: 220px;
+    height: 310px;
+    margin-left: 300px;
+}
+
+.card{
+    width: 220px;height: 310px;
+    background-image: url(IceBlade.webp);
+    background-size: cover;
+    transition : all 0.1s;
+}
+
+.overlay{
+    position:absolute;
+    width: 220px;
+    height: 310px;
+    background: linear-gradient(to left top,
+    transparent 20%,
+    rgba(255,219,112,0.8) 45%,
+    rgba(120,150,201,0.6) 50%,
+    transparent 80%);
+    filter:brightness(1.2) opacity(0.8);
+    mix-blend-mode: color-dodge;
+    background-size: 150% 150%;
+    background-position: 100%;
+}
